@@ -36,7 +36,6 @@ public class GameManager : MonoBehaviour
     // 현재 게임을 게임오버 상태로 변경하는 함수
     public void EndGame()
     {
-
         isGameover = true;            //현재 상태를 게임 오버 상태로 전환
         gameoverText.SetActive(true); //게임 오버 텍스트 활성화
         //BestTime 키로 저장된 이전까지의 최고 기록 가져오기
